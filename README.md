@@ -1,85 +1,91 @@
-# AI Chatbot - Assignment 01
+# AI Chatbot UI - Assignment 01
 
-**Cohort:** Uki Batticaloa - Cohort 01  
-**Course:** Full Stack Web Development  
-**Assignment:** 01 - AI Application Interface Design  
-**Student:** Mukilan  
-**Scenario:** AI Chatbot UI  
+## Scenario Chosen: AI Chatbot UI
+A modern, responsive interface for an intelligent chatbot application that provides natural conversation capabilities, instant responses, and user-friendly interaction. The chatbot can answer questions about portfolio projects, explain technical concepts, and assist with website navigation.
 
-## 🌐 Live Demo
-- **GitHub Pages:** [https://yourusername.github.io/ai-chatbot-assignment/](https://yourusername.github.io/ai-chatbot-assignment/)
-- **Repository:** [https://github.com/yourusername/ai-chatbot-assignment](https://github.com/yourusername/ai-chatbot-assignment)
-
-## 🎯 Scenario Chosen
-**AI Chatbot UI** - A modern, responsive interface for an intelligent chatbot application that provides natural conversation capabilities, instant responses, and user-friendly interaction.
-
-## 🎨 Color Palette & Typography
+## Color Palette & Typography
 
 ### Color Scheme
 | Color | Hex Code | Usage |
 |-------|----------|-------|
-| Primary | `#667eea` | Main brand color, buttons, highlights |
-| Secondary | `#764ba2` | Secondary elements, gradients |
-| Accent | `#f093fb` | Accent colors, hover effects |
-| Dark | `#1a202c` | Text, dark mode background |
-| Light | `#f7fafc` | Light mode background |
+| Primary Color | `#667eea` | Main brand color, buttons, highlights |
+| Secondary Color | `#764ba2` | Secondary elements, gradients |
+| Accent Color | `#f093fb` | Accent colors, hover effects |
+| Dark Neutral | `#1a202c` | Text, dark mode background |
+| Light Neutral | `#f7fafc` | Light mode background |
 
-### Typography
-| Font | Weight | Usage |
-|------|--------|-------|
+### Typography Selection
+| Font Family | Weights Used | Usage |
+|-------------|--------------|-------|
 | **Montserrat** | 700, 800 | Headings, Logo |
 | **Poppins** | 400, 500, 600 | Body text, Buttons, Navigation |
+| **Inter** | 400, 500 | Additional body text |
 
-## ✨ Features Implemented
+## Features Implemented
 
-### ✅ Required Pages
+### Required Pages
 1. **Login Page** (`login.html`)
    - Modern glassmorphism login form
-   - Social login options
-   - Form validation
-   - Responsive design
+   - Email and password validation
+   - Social login options (Google, GitHub)
+   - "Remember me" functionality
+   - Forgot password link
+   - Responsive design for all devices
 
 2. **Home Page** (`index.html`)
-   - Hero section with animated elements
-   - Features showcase with cards
-   - Interactive AI chatbot
-   - Responsive grid layout
+   - Interactive AI chatbot interface
+   - Real-time conversation display
+   - Quick suggestion buttons
+   - Typing indicator animation
+   - Chat history preservation
+   - Clear chat functionality
 
 3. **About Page** (`about.html`)
-   - Team information
-   - Technology stack
-   - Mission and vision
-   - UI/UX features implemented
+   - Project mission, vision, and values
+   - Technology stack information
+   - Key features showcase
+   - Student and assignment details
+   - UI/UX trends implemented
+   - Call-to-action sections
 
-### ✅ UI/UX Trends (Chosen 3+)
-1. **Glassmorphism** - Frosted glass effect throughout
-2. **Gradients** - Modern gradient color schemes
-3. **Dark/Light Mode Toggle** - User preference switching
-4. **Smooth Hover Effects** - Interactive elements
-5. **Sticky Navbar** - Fixed navigation while scrolling
-6. **Clean Typography** - Carefully selected font pairing
+### Component Checklist
+- **Navbar** - Sticky, responsive with hamburger menu for mobile
+- **Footer** - Not implemented (as per project requirement focus)
+- **Hero Section** - Animated with gradient background
+- **Cards** - Glassmorphism cards with hover effects (About page)
+- **Buttons** - Gradient buttons with hover animations
+- **Inputs + Labels** - Styled forms with icons
+- **Grid Layout** - Responsive Bootstrap grid system
+- **Responsive Menu** - Collapsible navbar for mobile
+- **Icons** - Font Awesome icons throughout
 
-### ✅ Component Checklist
-- ✅ Navbar (Sticky, responsive)
-- ✅ Footer (Multi-column, social links)
-- ✅ Hero Section (Animated, gradient)
-- ✅ Cards (Glassmorphism, hover effects)
-- ✅ Buttons (Gradient, hover animations)
-- ✅ Inputs + Labels (Styled forms)
-- ✅ Grid Layout (Responsive, modern)
-- ✅ Responsive Menu (Mobile hamburger)
-- ✅ Icons (Font Awesome throughout)
-
-## 📱 Screenshots
+## Screenshots
 
 ### Desktop View
-![Login Page](screenshots/login-desktop.png)
-![Home Page](screenshots/home-desktop.png)
-![About Page](screenshots/about-desktop.png)
+![Login Page Desktop](/assets/images/Login.png)
+![Home Page Desktop](/assets/images/Home.png)
+![About Page Desktop](/assets/images/About.png)
 
-### Mobile View
-![Mobile Login](screenshots/login-mobile.png)
-![Mobile Home](screenshots/home-mobile.png)
-![Mobile About](screenshots/about-mobile.png)
+## Folder Structure
+ai-chatbot-assignment/
+├── index.html # Home page with chatbot
+├── login.html # Login page
+├── about.html # About page
+├── assets/
+│ ├── css/
+│ │ ├── style.css # Main styles for home page
+│ │ ├── login.css # Login page styles
+│ │ └── about.css # About page styles
+│ ├── js/
+│ │ ├── chatbot.js # AI chatbot functionality
+│ │ └── login.js # Login form validation
+│ └── images/
+│ ├── bg1.jpg # Login page background
+│ ├── bg2.jpg # Home page background
+│ └── bg3.jpg # About page background
+├── screenshots/ # Project screenshots
+└── README.md # This documentation file
 
-## 📁 Folder Structure# AI-ChatBot
+## Live Demo & Repository
+- **GitHub Repository:** [https://github.com/Mukilan-Uki/AI-ChatBot]
+- **Live Demo (GitHub Pages):** [https://mukilan-uki.github.io/AI-ChatBot/]
