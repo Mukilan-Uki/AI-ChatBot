@@ -1,5 +1,5 @@
 body{
-    background: url('./assets/images/bg3.jpg');
+    background: url('/assets/images/bg3.jpg');
 }
 .about-container {
     padding-top: 100px;
