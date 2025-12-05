@@ -5,7 +5,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 20px;
-    background: url('/assets/images/bg2.jpg') center/cover no-repeat;
+    background: url('./assets/images/bg2.jpg') center/cover no-repeat;
 }
 
 body::before {
